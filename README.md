@@ -1,4 +1,4 @@
-# secondappraisal-com
+# Second Appraisal
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,150 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-secondappraisal-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://secondappraisal.com/
+Second Appraisal provides independent vehicle appraisal services for total‑loss insurance claims. When an insurer’s offer undervalues a totaled vehicle, Second Appraisal appraises the loss and helps owners secure a higher settlement, typically increasing payouts by thousands of dollars. The company operates across 39+ U.S. states, offers a flat $495 fee, and delivers free consultations without requiring credit cards or accounts.
+
+**Areas:** Insurance · Vehicle Appraisal · Auto Claims · Financial Services · United States
+
+## Second Appraisal on APIs.io
+
+Everything profiled for Second Appraisal is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/secondappraisal-com/](https://apis.io/providers/secondappraisal-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Second Appraisal Analytics API](https://apis.io/apis/secondappraisal-com/secondappraisal-com-analytics-api/) — Your funnel, outcomes and spend.
+- [Second Appraisal Credentials API](https://apis.io/apis/secondappraisal-com/secondappraisal-com-credentials-api/) — The key making the call: what it is, what it may do and when it expires; and a signed credential's activation.
+- [Second Appraisal Document API](https://apis.io/apis/secondappraisal-com/secondappraisal-com-document-api/) — This document.
+- [Second Appraisal Events API](https://apis.io/apis/secondappraisal-com/secondappraisal-com-events-api/) — What happened to your referrals and enrollments, for polling instead of, or beside, webhooks.
+- [Second Appraisal Plans API](https://apis.io/apis/secondappraisal-com/secondappraisal-com-plans-api/) — Total Loss Appraisal Support (TLAS): the vehicles you enroll, the consultations drawn against them and your monthly statements. TLAS is not insurance:…
+- [Second Appraisal Referrals API](https://apis.io/apis/secondappraisal-com/secondappraisal-com-referrals-api/) — Refer a borrower, follow the referral, edit or cancel it.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Secondappraisal Com Webhooks](https://apis.io/asyncapis/secondappraisal-com/secondappraisal-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Second Appraisal Agentic Access](https://apis.io/agentic-access/secondappraisal-com/secondappraisal-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AnalyticsReport](https://apis.io/schemas/secondappraisal-com/secondappraisal-com-analytics-report/)
+- [ApiKeyIntrospection](https://apis.io/schemas/secondappraisal-com/secondappraisal-com-api-key-introspection/)
+- [PlanEnrollment](https://apis.io/schemas/secondappraisal-com/secondappraisal-com-plan-enrollment/)
+- [ReferralCreateInput](https://apis.io/schemas/secondappraisal-com/secondappraisal-com-referral-create-input/)
+- [ReferralDetail](https://apis.io/schemas/secondappraisal-com/secondappraisal-com-referral-detail/)
+- [SignatureCheckResult](https://apis.io/schemas/secondappraisal-com/secondappraisal-com-signature-check-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Secondappraisal Com Context](https://apis.io/jsonld/secondappraisal-com/secondappraisal-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Second Appraisal API Rules](https://apis.io/rules/secondappraisal-com/secondappraisal-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Second Appraisal Authentication](https://apis.io/security/secondappraisal-com/secondappraisal-com-authentication/)
+- [Second Appraisal Domain Security](https://apis.io/security/secondappraisal-com/secondappraisal-com-domain-security/)
+- [Second Appraisal Vulnerability Disclosure](https://apis.io/security/secondappraisal-com/secondappraisal-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Second Appraisal Plans Pricing](https://apis.io/plans/secondappraisal-com/secondappraisal-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Second Appraisal Rate Limits](https://apis.io/rate-limits/secondappraisal-com/secondappraisal-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://secondappraisal.com/)
+- [Documentation](https://secondappraisal.com/guides)
+- [Getting started](https://secondappraisal.com/developers/quickstart)
+- [API reference](https://secondappraisal.com/developers/reference)
+- [Pricing](https://secondappraisal.com/pricing)
+- [Sign up](https://secondappraisal.com/start)
+- [Blog](https://secondappraisal.com/blog)
+- [Terms of service](https://secondappraisal.com/terms)
+- [Privacy policy](https://secondappraisal.com/privacy)
+- [GitHub](https://github.com/SecondAppraisal)
+- [Status](https://status.secondappraisal.com/)
+
+## API Evangelist rating
+
+**Kin Score 67.4** — exemplar · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.7 |
+| Contract quality | 68.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 82.9 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 51.5 |
+
+**Agent readiness 55.6** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 27.2** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/secondappraisal-com/](https://apis.io/providers/secondappraisal-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Second Appraisal: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/secondappraisal-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
